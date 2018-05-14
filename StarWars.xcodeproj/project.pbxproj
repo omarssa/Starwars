@@ -7,14 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		046699D320A9403D00D6FDA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046699D220A9403D00D6FDA2 /* Assets.xcassets */; };
+		048F6E0F20A7B44F00ED78C2 /* SViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F6E0E20A7B44F00ED78C2 /* SViewController.swift */; };
+		048F6E1120A7BD7A00ED78C2 /* PViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F6E1020A7BD7A00ED78C2 /* PViewController.swift */; };
+		048F6E1320A7C18700ED78C2 /* VViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F6E1220A7C18700ED78C2 /* VViewController.swift */; };
+		048F6E5320A8C54900ED78C2 /* StarWars.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 048F6E5120A8C54900ED78C2 /* StarWars.xcdatamodeld */; };
+		048F6E5520A906E300ED78C2 /* FavoriteList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F6E5420A906E300ED78C2 /* FavoriteList.swift */; };
+		048F6E5720A9086900ED78C2 /* functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F6E5620A9086900ED78C2 /* functions.swift */; };
+		04B08A5B20A791EE0079D0E5 /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B08A5A20A791EE0079D0E5 /* PeopleViewController.swift */; };
+		04B08A5D20A799770079D0E5 /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B08A5C20A799770079D0E5 /* People.swift */; };
+		04B08A6020A7A2EC0079D0E5 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B08A5F20A7A2EC0079D0E5 /* FavoriteViewController.swift */; };
+		04B08A6220A7A39B0079D0E5 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B08A6120A7A39B0079D0E5 /* MainTabBarController.swift */; };
+		04BA5F2520A5F7CF0042F1FA /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BA5F2420A5F7CF0042F1FA /* NetworkService.swift */; };
+		04BA5F2720A5F82C0042F1FA /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BA5F2620A5F82C0042F1FA /* ImageCache.swift */; };
+		04BA5F2920A5F87C0042F1FA /* MyUrls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BA5F2820A5F87C0042F1FA /* MyUrls.swift */; };
 		04C0177D20A392C300AE27E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C0177C20A392C300AE27E1 /* AppDelegate.swift */; };
 		04C0177F20A392C300AE27E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C0177E20A392C300AE27E1 /* ViewController.swift */; };
 		04C0178220A392C300AE27E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C0178020A392C300AE27E1 /* Main.storyboard */; };
-		04C0178520A392C300AE27E1 /* StarWars.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04C0178320A392C300AE27E1 /* StarWars.xcdatamodeld */; };
-		04C0178720A392C500AE27E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C0178620A392C500AE27E1 /* Assets.xcassets */; };
 		04C0178A20A392C500AE27E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C0178820A392C500AE27E1 /* LaunchScreen.storyboard */; };
 		04C0179520A392C600AE27E1 /* StarWarsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C0179420A392C600AE27E1 /* StarWarsTests.swift */; };
 		04C017A020A392C600AE27E1 /* StarWarsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C0179F20A392C600AE27E1 /* StarWarsUITests.swift */; };
+		04C017B320A4DD4C00AE27E1 /* StarWarsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C017B220A4DD4C00AE27E1 /* StarWarsList.swift */; };
+		04C017B520A4E59D00AE27E1 /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C017B420A4E59D00AE27E1 /* MyCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +49,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		046699D220A9403D00D6FDA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		048F6E0E20A7B44F00ED78C2 /* SViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SViewController.swift; sourceTree = "<group>"; };
+		048F6E1020A7BD7A00ED78C2 /* PViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PViewController.swift; sourceTree = "<group>"; };
+		048F6E1220A7C18700ED78C2 /* VViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VViewController.swift; sourceTree = "<group>"; };
+		048F6E5220A8C54900ED78C2 /* StarWars.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StarWars.xcdatamodel; sourceTree = "<group>"; };
+		048F6E5420A906E300ED78C2 /* FavoriteList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteList.swift; sourceTree = "<group>"; };
+		048F6E5620A9086900ED78C2 /* functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = functions.swift; sourceTree = "<group>"; };
+		04B08A5A20A791EE0079D0E5 /* PeopleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
+		04B08A5C20A799770079D0E5 /* People.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
+		04B08A5F20A7A2EC0079D0E5 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		04B08A6120A7A39B0079D0E5 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		04BA5F2420A5F7CF0042F1FA /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		04BA5F2620A5F82C0042F1FA /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		04BA5F2820A5F87C0042F1FA /* MyUrls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyUrls.swift; sourceTree = "<group>"; };
 		04C0177920A392C300AE27E1 /* StarWars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarWars.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C0177C20A392C300AE27E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04C0177E20A392C300AE27E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		04C0178120A392C300AE27E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		04C0178420A392C300AE27E1 /* StarWars.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StarWars.xcdatamodel; sourceTree = "<group>"; };
-		04C0178620A392C500AE27E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04C0178920A392C500AE27E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04C0178B20A392C500AE27E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04C0179020A392C600AE27E1 /* StarWarsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarWarsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +75,8 @@
 		04C0179B20A392C600AE27E1 /* StarWarsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarWarsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C0179F20A392C600AE27E1 /* StarWarsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsUITests.swift; sourceTree = "<group>"; };
 		04C017A120A392C600AE27E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C017B220A4DD4C00AE27E1 /* StarWarsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsList.swift; sourceTree = "<group>"; };
+		04C017B420A4E59D00AE27E1 /* MyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +104,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04BA5F2320A5F7B40042F1FA /* Network Services */ = {
+			isa = PBXGroup;
+			children = (
+				04BA5F2420A5F7CF0042F1FA /* NetworkService.swift */,
+			);
+			path = "Network Services";
+			sourceTree = "<group>";
+		};
 		04C0177020A392C300AE27E1 = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +135,12 @@
 		04C0177B20A392C300AE27E1 /* StarWars */ = {
 			isa = PBXGroup;
 			children = (
-				04C0177C20A392C300AE27E1 /* AppDelegate.swift */,
-				04C0177E20A392C300AE27E1 /* ViewController.swift */,
-				04C0178020A392C300AE27E1 /* Main.storyboard */,
-				04C0178620A392C500AE27E1 /* Assets.xcassets */,
-				04C0178820A392C500AE27E1 /* LaunchScreen.storyboard */,
+				04BA5F2320A5F7B40042F1FA /* Network Services */,
+				04C017AF20A4D1D900AE27E1 /* Controller */,
+				04C017AE20A4D1D200AE27E1 /* View */,
+				04C017AD20A4D1C300AE27E1 /* Model */,
 				04C0178B20A392C500AE27E1 /* Info.plist */,
-				04C0178320A392C300AE27E1 /* StarWars.xcdatamodeld */,
+				046699D220A9403D00D6FDA2 /* Assets.xcassets */,
 			);
 			path = StarWars;
 			sourceTree = "<group>";
@@ -126,6 +161,45 @@
 				04C017A120A392C600AE27E1 /* Info.plist */,
 			);
 			path = StarWarsUITests;
+			sourceTree = "<group>";
+		};
+		04C017AD20A4D1C300AE27E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04C0177C20A392C300AE27E1 /* AppDelegate.swift */,
+				04C017B220A4DD4C00AE27E1 /* StarWarsList.swift */,
+				04BA5F2620A5F82C0042F1FA /* ImageCache.swift */,
+				04BA5F2820A5F87C0042F1FA /* MyUrls.swift */,
+				04B08A5C20A799770079D0E5 /* People.swift */,
+				048F6E5120A8C54900ED78C2 /* StarWars.xcdatamodeld */,
+				048F6E5420A906E300ED78C2 /* FavoriteList.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04C017AE20A4D1D200AE27E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04C0178020A392C300AE27E1 /* Main.storyboard */,
+				04C0178820A392C500AE27E1 /* LaunchScreen.storyboard */,
+				04C017B420A4E59D00AE27E1 /* MyCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04C017AF20A4D1D900AE27E1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04C0177E20A392C300AE27E1 /* ViewController.swift */,
+				04B08A5A20A791EE0079D0E5 /* PeopleViewController.swift */,
+				04B08A5F20A7A2EC0079D0E5 /* FavoriteViewController.swift */,
+				04B08A6120A7A39B0079D0E5 /* MainTabBarController.swift */,
+				048F6E0E20A7B44F00ED78C2 /* SViewController.swift */,
+				048F6E1020A7BD7A00ED78C2 /* PViewController.swift */,
+				048F6E1220A7C18700ED78C2 /* VViewController.swift */,
+				048F6E5620A9086900ED78C2 /* functions.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,8 +307,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				04C0178A20A392C500AE27E1 /* LaunchScreen.storyboard in Resources */,
-				04C0178720A392C500AE27E1 /* Assets.xcassets in Resources */,
 				04C0178220A392C300AE27E1 /* Main.storyboard in Resources */,
+				046699D320A9403D00D6FDA2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +333,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				048F6E5320A8C54900ED78C2 /* StarWars.xcdatamodeld in Sources */,
+				04BA5F2720A5F82C0042F1FA /* ImageCache.swift in Sources */,
+				04B08A5B20A791EE0079D0E5 /* PeopleViewController.swift in Sources */,
+				048F6E1120A7BD7A00ED78C2 /* PViewController.swift in Sources */,
+				04B08A6220A7A39B0079D0E5 /* MainTabBarController.swift in Sources */,
+				04BA5F2920A5F87C0042F1FA /* MyUrls.swift in Sources */,
+				048F6E1320A7C18700ED78C2 /* VViewController.swift in Sources */,
+				04BA5F2520A5F7CF0042F1FA /* NetworkService.swift in Sources */,
+				04B08A6020A7A2EC0079D0E5 /* FavoriteViewController.swift in Sources */,
+				048F6E5720A9086900ED78C2 /* functions.swift in Sources */,
+				048F6E5520A906E300ED78C2 /* FavoriteList.swift in Sources */,
+				04B08A5D20A799770079D0E5 /* People.swift in Sources */,
+				04C017B320A4DD4C00AE27E1 /* StarWarsList.swift in Sources */,
 				04C0177F20A392C300AE27E1 /* ViewController.swift in Sources */,
+				04C017B520A4E59D00AE27E1 /* MyCell.swift in Sources */,
+				048F6E0F20A7B44F00ED78C2 /* SViewController.swift in Sources */,
 				04C0177D20A392C300AE27E1 /* AppDelegate.swift in Sources */,
-				04C0178520A392C300AE27E1 /* StarWars.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -584,12 +672,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		04C0178320A392C300AE27E1 /* StarWars.xcdatamodeld */ = {
+		048F6E5120A8C54900ED78C2 /* StarWars.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				04C0178420A392C300AE27E1 /* StarWars.xcdatamodel */,
+				048F6E5220A8C54900ED78C2 /* StarWars.xcdatamodel */,
 			);
-			currentVersion = 04C0178420A392C300AE27E1 /* StarWars.xcdatamodel */;
+			currentVersion = 048F6E5220A8C54900ED78C2 /* StarWars.xcdatamodel */;
 			path = StarWars.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
