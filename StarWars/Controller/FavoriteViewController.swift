@@ -19,7 +19,7 @@ class FavoriteViewController: UIViewController {
         super.viewDidLoad()
         let bgImage = UIImageView()
         bgImage.image = #imageLiteral(resourceName: "space")
-        bgImage.contentMode = .scaleToFill
+        bgImage.contentMode = .scaleToFill 
         imageView.image = #imageLiteral(resourceName: "sw")
        
             collectionView.backgroundView = bgImage
